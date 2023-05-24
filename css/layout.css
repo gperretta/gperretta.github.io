@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  flex-basis: 25%;
+  flex-basis: 50%;
 }
 
 .portfolio-header-image {
@@ -93,30 +93,22 @@ body {
 
 /* Project Cards */
 
-.project-box {
-  max-width: 100%;
+.project-card {
+  max-width: calc((100% - 32px) / 3);
   display: flex;
   flex-direction: column;
   gap: 34px;
 }
 
-.project-card {
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  gap: 34px;
-}
-
 .project-card-text-container {
-  max-height: 100%;
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
-  gap: 20px
+  gap: 16px
 }
 
 .project-image {
-  max-width: 300px;
-  max-height: 300px;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
   object-position: center;
 }
@@ -133,8 +125,9 @@ body {
 }
 
 .project-header-image {
-  width: 100%;
+  width: 30%;
   height: auto;
+  align-self: center;
 }
 
 #project-details {

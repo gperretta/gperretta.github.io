@@ -1,0 +1,232 @@
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+
+    <link rel="icon" href="./assets/images/devlogo.png" />
+    <title>Gilda Perretta / Portfolio </title>
+    <meta name="description" content="A Computer Engineering grad student, interested in software engineering
+       and software/app development and passionate about innovations, digital transformation, multimedia and AI.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+    <script defer src="../js/script.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../index.html">
+            <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+            <span class="nav-title">GILDA PERRETTA</span>
+            <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+            <a class="button" href="mailto:perretta.gilda@gmail.com">
+                <span class="button-text">Contact Me</span>
+            </a>
+        </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+        <!-- PROJECT HEADER -->
+        <div align="center" id=" project-header">
+            <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+            <image class="project-header-image" src="../assets/images/sprout-logo.png">
+                <a class="button" href="https://github.com/gperretta/AlgaExperience">
+                    <span class="button-text">Check out the project repository</span>
+                    <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+                </a>
+        </div>
+
+        <!-- PROJECT DETAILS -->
+        <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+        <div id="project-details">
+            <div class="subheader-text">Project Details</div>
+            <div class="project-details-content">
+                <div class="body-text">Sprout is an iOS arcade game revolving around a little plant, being
+                    the last creature alive on a dying Earth.
+                    <br>
+                    The game is entirely set in the abandoned "Circumvesuviana" metro station and in a dystopic future.
+                    <br>
+                    As the sprout is the last and only hope for the planet, the player's mission is to protect it at all
+                    cost, by killing
+                    the robotic bugs that threaten its existence.
+                    <br><br>
+                    <b>Gameplay and game mechanics</b>
+                    <br><br>As the game begins, the player will see the plant going out of its manhole (or
+                    <i>sprout-hole</i>) while the robotic bugs will start surrounding the little harmless plant.
+                    <br>The player's task is to destroy the incoming bugs by swiping on them in any direction,
+                    preventing the enemies
+                    from
+                    taking away the plant's three lives, represented by its leaves.
+                    Each time a bug will get to the plant, the plant will lose a live, retire back in the sprout-hole
+                    and them come back up with a leave missing. <br>When the plant will have lost all its leaves,
+                    the game is going to end as the sprout dies with the planet Earth last chance of survival.
+                    <br>
+                    <br><b>Challenges and reward/score system</b><br>
+                    <br>The game is based on a scoring system, where the player can earn 10 points for each robotic bug
+                    destroyed.
+                    The more bugs get killed, the higher their score is, while the game progressively becomes more
+                    challenging with more enemies appearing and approaching the plant to attack in an increasily faster
+                    way.
+                    Additionally, the enemies will enter the game scene from different points, decided with a certain
+                    quantity of randomness, which means their arrival will be not predictable.
+                    <br>
+                    <br><b>Technologies</b><br>
+                    <br>The whole game was developed in Xcode, using Swift as a programming language and SpriteKit, an
+                    Apple framework to build high-performance and battery-efficient 2D games.
+                    <br>Thanks to SpriteKit, we were able to apply physics effects to different objects on the scene,
+                    to implement a collision detection system between the plant node and the enemy nodes to acknowledge
+                    the
+                    attack and to add cool animations both the plant and the moving bugs.
+                    <br>The game also contains an
+                    opening screen, a lore screen with an animated text resembling a typography effect and, of course, a
+                    game over screen, where the final score of the player will be displayed.
+                    <br> The highest score will be saved each time using Apple's UserDefaults and then it's going to be
+                    showed as a
+                    comparison
+                    with
+                    the last score
+                    earned.
+                    <br>
+                    <br><b>Visual and audio</b><br>
+                    <br>The whole game is pixel-art-styled with a strong callback to the 80s.
+                    <br>All the game assets were created from scratch using Aseprite, a pixel-art tool and image editor.
+                    <br>On the other hand, the audio was created by playing real instruments or recording
+                    voices and sounds and editing the
+                    tracks and noises obtained with Apple's GarageBand.
+                    <br>
+                    <br><b>Process</b><br>
+                    <br>Sprout is a product of a two-weeks project in a team of four.
+                    <br>We started with a big brainstorming session, which had to be completed in two days to respect
+                    the given deadlines. After a research session about feasibility and SpriteKit, a framework we were
+                    using for the first time, the game design phase began and briefly after we started coding it.
+                    <br>At first, we encountered a few struggles with physics, rigid bodies and collision mask, but
+                    working as a team and with the support of official resources and mentors (and some web surfing) we
+                    were able to deliver a complete product, with an intuitive backstory and a catchy gameplay.
+                    <br>
+                    <br><b>Personal contribution</b><br>
+                    <br>
+                    As I previously mentioned, Sprout was a team-project, where I worked with another
+                    developer and two
+                    designers.
+                    My main tasks have been:
+                    <br>- game scenes and nodes rendering,
+                    <br>- core game mechanics implementation with
+                    swipe
+                    gestures reading,
+                    <br>- score system.
+                    <br>Sprout was the first game I've developed at the Academy and it was an exciting
+                    experience. I had a lot of fun, despite a few struggles with a new framework to learn in a couple of
+                    days and a design phase that was a bit different from the process I've been through with app
+                    development. I must say, I also had an amazing team, full of really creative thinkers.
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAGE GALLERY -->
+        <div id="project-gallery">
+            <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+            <div class="subheader-text">Image Gallery</div>
+            <div class="project-gallery-content">
+                <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+                <div class="gallery-image-container half-width">
+                    <img src="../assets/images/sprout-screen1.png" class="gallery-image">
+                    <span align="center" class="image-caption">Sprout opening screen.</span>
+                </div>
+                <div class="gallery-image-container half-width">
+                    <img src="../assets/images/sprout-screen2.png" class="gallery-image">
+                    <span align="center" class="image-caption">Introducing our game backstory.</span>
+                </div>
+                <div class="gallery-image-container">
+                    <img src="../assets/images/sprout-screen3.png" class="gallery-image">
+                    <span align="center" class="image-caption">Here's a frame of the actual game: our little plant,
+                        the
+                        Sprout itself, being at the center, surrounded by its deadly enemies, the robotic
+                        bugs.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+        <a class="icon-link" href="mailto:perretta.gilda@gmail.com">
+            <image src="../assets/icons/mail.svg" class="footer-icon" />
+        </a>
+    </div>
+
+</body>
+
+</html>
