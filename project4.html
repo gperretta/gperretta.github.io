@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="./assets/images/devlogo.png" />
+    <title>Gilda Perretta / Portfolio </title>
+    <meta name="description" content="A Computer Engineering grad student, interested in software engineering
+       and software/app development and passionate about innovations, digital transformation, multimedia and AI.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+    <script defer src="../js/script.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="../index.html">
+            <span class="nav-title">GILDA PERRETTA</span>
+            <a class="button" href="mailto:perretta.gilda@gmail.com">
+                <span class="button-text">Contact Me</span>
+            </a>
+        </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+        <!-- PROJECT HEADER -->
+        <div align="center" id=" project-header">
+            <div class="main-title">DEBUG<br><br></div>
+            <div class="body-text">A snake mini-game.<br><br></div>
+            <a class="button" href="https://github.com/gperretta/snake-minigame-unity">
+                <span class="button-text">Check out the project repository</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+            </a>
+        </div>
+
+        <!-- PROJECT DETAILS -->
+        <div id="project-details">
+            <div class="subheader-text">Project Details</div>
+            <div class="project-details-content">
+                <div class="body-text">
+                    <br>"Debug" is a 2D game for macOS, developed in Unity as a brief revival of the 70's arcade game,
+                    Snake
+                    - previously Blockade.
+                    <br><br>
+                    <b>Gameplay and game mechanics</b>
+                    <br><br>As in the classic snake-genre games, the player can control the snake using the keyboard to
+                    find
+                    and eat its food - a bug, in this version, hence the chosen game title.
+                    The player gets 100 points for each bug the snake eats, while the snake gets longer and longer. The
+                    speed of the game increases the more bugs are eaten to make the game more entertaining and harder.
+                    There's only one limitation: if the snake bites itself, it will die!
+                    <br><br>
+                    <b>Setting and visual</b><br>
+                    <br>The game area is a rectangular space where the snake moves around, while the bugs keep spawning
+                    in random positions of the
+                    screen. The game features a cartoon-style graphics I've designed using Figma.
+                    <br><br>
+                    <b>Technologies</b><br>
+                    <br>The whole game was developed in Unity and it uses various 2D assets and Unity components such as
+                    Sprite Renderer, Box Collider 2D, Rigid Body, Text Mesh Pro and other UI elements. A key element was
+                    the Unity input system, which drives the entire core game mechanic and gameplay.
+                    <br><br>
+                    <b>Process</b><br>
+                    <br>This project was created as part of a two-week challenge centered around game creation, where I
+                    mostly focused on (back-end) game development, which allowed me to explore a bit more about Unity,
+                    while refreshing my knowledge of C# programming.
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAGE GALLERY -->
+        <div id="project-gallery">
+            <div class="subheader-text">Image Gallery</div>
+            <div class="project-gallery-content">
+                <div class="gallery-image-container half-width">
+                    <img src="../assets/images/debug-main-menu.png" class="gallery-image">
+                    <span align="center" class="image-caption">Debug opening screen.</span>
+                </div>
+                <div class="gallery-image-container half-width">
+                    <img src="../assets/images/debug-game-over.png" class="gallery-image">
+                    <span align="center" class="image-caption">Debug game over screen.</span>
+                </div>
+                <div class="gallery-image-container">
+                    <img src="../assets/images/debug-gameplay.png" class="gallery-image">
+                    <span align="center" class="image-caption">A frame from the actual game with obtained score 800 and
+                        speed
+                        level at 2.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <a class="icon-link" href="mailto:perretta.gilda@gmail.com">
+            <image src="../assets/icons/mail.svg" class="footer-icon" />
+        </a>
+    </div>
+
+</body>
+
+</html>

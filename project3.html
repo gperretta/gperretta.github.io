@@ -1,29 +1,8 @@
-<!-- 
-  IMPORTANT! 
-  
-  Keep this file unchanged to use as a template for all future project pages. 
-
-  For every new project you add to your portfolio, make a copy of this file in the
-  'project-pages' folder with a name related to the project.
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
-
   <link rel="icon" href="./assets/images/devlogo.png" />
   <title>Gilda Perretta / Portfolio </title>
   <meta name="description" content="A Computer Engineering grad student, interested in software engineering
@@ -41,17 +20,7 @@
   <!-- NAVBAR -->
   <div class="navbar">
     <a class="nav-title-link" href="../index.html">
-      <!-- 
-          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
-
-          (this should be the same across all pages)
-         -->
       <span class="nav-title">GILDA PERRETTA</span>
-      <!-- 
-          TODO - Change the email after 'mailto:' to your email address for contact 
-        
-          (this should be the same across all pages)
-        -->
       <a class="button" href="mailto:perretta.gilda@gmail.com">
         <span class="button-text">Contact Me</span>
       </a>
@@ -63,24 +32,11 @@
 
     <!-- PROJECT HEADER -->
     <div align="center" id=" project-header">
-      <!-- 
-            TODO
-
-            - Change the 'main-title' text to the name of your project
-            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
-            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
-          -->
       <div class="main-title">DriveLink<br><br></div>
-      <image class="project-header-image" src="../assets/images/drivelinkicon.png">
+      <div class="body-text">Develop for usability testing and test for development.<br><br></div>
     </div>
 
     <!-- PROJECT DETAILS -->
-    <!-- 
-        TODO
-
-        - Change the 'subheader-text' to whatever header you want for project details
-        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
-      -->
     <div id="project-details">
       <div class="subheader-text">Project details</div>
       <div class="project-details-content">
@@ -93,26 +49,20 @@
           <br>With DriveLink, driving for an extensive time becomes a social experience, providing a
           much-needed break from the monotony and boredom of the open road.
           <br>The whole project was inspired by the CB Radio used by truck drivers to communicate with each
-          other to exchange useful informations about roads, traffic and weather - and to have a little
-          company while working, too!
+          other to exchange useful informations about roads, traffic and weather.
           <br><br>The app concept was validated through a long research phase, which lately became a design
           and
           development test-driven process for a team-project.
         </div>
         <div class="body-text">
           <b>How it works?</b>
-          <br><br>
-          First of all, in order to use the app the user should be logged in. After
-          an onboarding tutorial displayed for the first time only, the user will directly land on a login
-          screen, where it's possible to insert mail and password. If the user has no account yet, it's easy
-          to sign-up just by tapping a link at the bottom of the screen and then filling all the required
-          fields showed in the registration screen.
-          <br>After this sign-in/sign-up process, it is now possible to use the app. How?
+          <br>
           <br>DriveLink works with a match-and-call system, which means that each user has the chance to select
-          some topics of interest and make a call. The system will start looking for a perfect match who is
-          online and ready to talk and shares the same interests or some of them. In the case there are no
-          users available sharing the
-          selected interests, the match will be random to guarantee a working service, even partial.
+          some topics of interest and make a call.
+          To use the app, the user should be logged-in. Indeed, the first time the app will be launched, after a brief
+          tutorial,
+          a sign-in screen will be the first screen the user will see. If the user has no account yet, it will be easy
+          to sign-up by tapping a link at the bottom of the screen and filling the registration form.
           <br><br>
           <b>Testing</b>
           <br><br>
@@ -133,10 +83,6 @@
           <br>However, the app we developed is currently a demo version only.
           <br>Making calls has its cost and as far as we looked for a free VoIP service, we had to take a step
           back, acknowledging our limited resources.
-          <br>We still had the chance to explore external services such as Twilio and SandBird, although we
-          couldn't
-          use them for a product aimed at being on the market without an appropriate economic
-          support.
           <br><br>
           <b>Personal contribution</b>
           <br><br>
@@ -147,58 +93,15 @@
           text
           field
           checks using regular expressions (RegEx).
-          <br><br>
-          <b>A note about safety</b>
-          <br><br>
-          As I've mentioned before, the current app version is a demo.
-          Future implementations of the app could include features or adaptions aimed at the user safety.
-          For safety reason, the call would always be on speaker. If the user has the earphones on,
-          only
-          one of
-          them would be transmitting sounds.
-          Furthermore, a specific car-mode could be implemented in the app, to allow the user to
-          only
-          make calls without having access to any other feature that may be distracting.
-          <br>Making the app
-          work
-          with
-          Siri could be useful, too, using SiriKit framework, to allow the user to make a call in the app just with a
-          vocal
-          command.
-          <br>Another possibility would be turning DriveLink into an app working on Apple's CarPlay only.
+          <br>
           <br>
         </div>
       </div>
     </div>
-
     <!-- IMAGE GALLERY -->
     <div id="project-gallery">
-      <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
       <div class="subheader-text">Image Gallery</div>
       <div class="project-gallery-content">
-        <!-- 
-              TODO
-
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
-              Full Width Image:
-
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              Half Width Image: 
-
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
         <div class="gallery-image-container half-width">
           <img src="../assets/images/drivelink-large.png" class="gallery-image">
           <span align="center" class="image-caption"></span>
@@ -213,11 +116,6 @@
 
   <!-- FOOTER -->
   <div id="footer">
-    <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
     <a class="icon-link" href="mailto:perretta.gilda@gmail.com">
       <image src="../assets/icons/mail.svg" class="footer-icon" />
     </a>

@@ -3,17 +3,6 @@
 
 <head>
   <meta charset="utf-8">
-
-  <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
   <link rel="icon" href="./assets/images/devlogo.png" />
   <title>Gilda Perretta / Portfolio </title>
   <meta name="description" content="A Computer Engineering grad student, interested in software engineering
@@ -31,9 +20,7 @@
   <!-- NAVBAR -->
   <div class="navbar">
     <a class="nav-title-link" href="./index.html">
-      <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
       <span class="nav-title">GILDA PERRETTA</span>
-      <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
       <a class="button" href="mailto:whitevans.eth@gmail.com">
         <span class="button-text">Contact Me</span>
       </a>
@@ -46,23 +33,8 @@
     <!-- PORTFOLIO HEADER -->
     <div id="portfolio-header">
       <div id="portfolio-header-image-container">
-        <!-- 
-            TODO
-
-            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
-            - Change the number to point to your Unemployable & replace the OpenSea link with your own
-            - If you aren't using an Unemployable as your image, remove the entire "a" element
-          -->
         <img src="./assets/images/devlogo.png" class="portfolio-header-image">
       </div>
-
-      <!-- 
-            TODO
-
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
-          -->
       <div id="portfolio-header-text-container">
         <div class="header-text">
           <span class="main-title">Hello, world!</span>
@@ -81,29 +53,26 @@
     </div>
 
     <!-- ABOUT SECTION -->
-    <!-- 
-        TODO
-
-        - Change the subheader-text to whatever header you want
-        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
-      -->
     <div id="about-section">
       <span class="subheader-text">About Me</span>
       <div class="about-section-content">
         <div class="body-text">As a computer engineering graduate, I’m eager to apply the acquired technical skills and
           theoretical knowledge into real-world projects and challenges.
-          <br>That’s one of the reasons why I’ve enrolled for the Apple Developer Academy, where I’ve improved my skills
+          <br>That’s one of the reasons why I’ve enrolled in the Apple Developer Academy learner program, where I’ve
+          improved my skills
           by
-          using a major learning-by-doing approach and developing soft skills such as team work, communication and time
-          management.
-          <br>In addition, sometimes I’m also a freelance software tester for an international platform, where I’ve
+          using a major learning-by-doing approach and developed my soft skills while working in multiple teams to
+          deliver various products such as iOS apps and games for both iOS and macOS.
+          <br><br>In addition, I’m also a freelance software tester every now and again for an international platform,
+          where I’ve
           gained
-          experience in testing and quality assurance of multiple products available on the market.
-          <br>I've been able to
-          explore mobile, web and desktop products to detect bugs and work failures, while also learning by them.
-          <br><br>As the Academy is experience is coming to an end, too, I'm looking forward to expand my knowledge
+          experience in testing and quality assurance of different products on the market.
+          I've been able to
+          explore mobile, web and desktop products to detect bugs and work failures, while also learning from them.
+          <br><br>As the Academy experience and my university studies have ended, I'm looking forward to expand my
+          knowledge
           about
-          software development and engineering, while continuing to apply what I've learned at university.
+          software development and engineering by using new tools and frameworks.
           <br><br>
           However, don't get me wrong, I like my free time, too.
           <br>I enjoy walking around, most of all, I love going to places where I can see the sea. I'm also a
@@ -120,33 +89,10 @@
 
     <!-- PROJECTS / MY WORK SECTION -->
     <div id="my-work-section">
-      <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
       <span class="subheader-text">Projects<br>
       </span>
 
       <div class="projects-container">
-        <!-- 
-            TODO
-
-            This is where the project cards live. Here's a base level project card for you to copy:
-            <div class="project-card">
-              <img src="./assets/images/IMAGE_NAME" class="project-image">
-              <div class="project-card-text-container">
-                <div class="subheader-text project-title">PROJECT_NAME</div>
-                <div class="body-text project-card-text">SMALL_PROJECT_DESCRIPTION</div>
-              </div>
-              <a class="button" href="./project-pages/PROJECT_PAGE_NAME.html">
-                <span class="button-text">Read More</span>
-                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-              </a>
-            </div>
-
-            - To add a project to this area, copy the above, paste it below this comment, and change the following:
-                - IMAGE_NAME: the name of the image file in assets/images
-                - PROJECT_NAME: the name of the project (keep it short, it only shows 1 line)
-                - SMALL_PROJECT_DESCRIPTION: a quick project description (max 4 lines)
-                - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
-          -->
         <!--
           PROJECT #1: Sprout
         -->
@@ -158,6 +104,36 @@
             </div>
           </div>
           <a class="button" href="./project1.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <!--
+          PROJECT #4: Debug
+        -->
+        <div class="project-card">
+          <img src="./assets/images/debug.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Debug</div>
+            <div class="body-text project-card-text">A snake revival mini-game for macOS.
+            </div>
+          </div>
+          <a class="button" href="./project4.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+        <!--
+          PROJECT #5: Ghosting time
+        -->
+        <div class="project-card">
+          <img src="./assets/images/ghosting.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Ghosting Time</div>
+            <div class="body-text project-card-text">An alternative Flappy Bird clone for macOS.
+            </div>
+          </div>
+          <a class="button" href="./project5.html">
             <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
@@ -183,9 +159,8 @@
         <div class="project-card">
           <img src="./assets/images/drivelink.png" class="project-image">
           <div class="project-card-text-container">
-            <div class="subheader-text project-title">DriveLink</div>
-            <div class="body-text project-card-text">A demo app to interconnect users through a call
-              system.
+            <div class="subheader-text project-title">Usability Testing</div>
+            <div class="body-text project-card-text">DriveLink: a human-centered test-driven project.
             </div>
           </div>
           <a class="button" href="./project3.html">
@@ -193,6 +168,23 @@
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
         </div>
+        <!--
+          PROJECT #6: Python projects
+        -->
+        <!----
+        <div class="project-card">
+          <img src="./assets/images/drivelink.png" class="project-image">
+          <div class="project-card-text-container">
+            <div class="subheader-text project-title">Learning Python</div>
+            <div class="body-text project-card-text">A couple of projects to learn Python3.
+            </div>
+          </div>
+          <a class="button" href="./project6.html">
+            <span class="button-text">Read More</span>
+            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          </a>
+        </div>
+      -->
       </div>
     </div>
   </div>
@@ -203,11 +195,6 @@
 
   <!-- FOOTER -->
   <div id="footer">
-    <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
     <a class="icon-link" href="mailto:perretta.gilda@gmail.com">
       <image src="./assets/icons/mail.svg" class="footer-icon" />
     </a>
