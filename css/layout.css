@@ -21,7 +21,7 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 225px 425px;
+  margin: 180px 450px;
   display: flex;
   flex-direction: column;
   gap: 96px;
@@ -54,7 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 34px;
-  flex-basis: 50%;
+  flex-basis: 100%;
 }
 
 
@@ -170,6 +170,15 @@ body {
 .gallery-image {
   width: 100%;
   height: auto;
+}
+
+.noDecoration,
+a:link {
+  text-decoration: none;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 

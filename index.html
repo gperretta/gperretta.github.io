@@ -6,7 +6,7 @@
   <link rel="icon" href="./assets/images/devlogo.png" />
   <title>Gilda Perretta / Portfolio </title>
   <meta name="description" content="A Computer Engineering grad student, interested in software engineering
-    and software/app development and passionate about innovations, digital transformation, multimedia and AI.">
+    and software/app development, strongly passionate about innovations, digital transformation, multimedia and AI.">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="stylesheet" href="./css/layout.css">
@@ -20,7 +20,7 @@
   <!-- NAVBAR -->
   <div class="navbar">
     <a class="nav-title-link" href="./index.html">
-      <span class="nav-title">GILDA PERRETTA</span>
+      <span class="nav-title">Portfolio/Home</span>
       <a class="button" href="mailto:whitevans.eth@gmail.com">
         <span class="button-text">Contact Me</span>
       </a>
@@ -32,22 +32,30 @@
 
     <!-- PORTFOLIO HEADER -->
     <div id="portfolio-header">
+      <!--
       <div id="portfolio-header-image-container">
         <img src="./assets/images/devlogo.png" class="portfolio-header-image">
       </div>
-      <div id="portfolio-header-text-container">
+      -->
+      <div align="center" id="portfolio-header-text-container">
         <div class="header-text">
           <span class="main-title">Hello, world!</span>
-          <div class="body-text"><br>I'm Gilda, an endless learner who's passionate about tech and innovations, and
-            interested in software engineering and development.
+          <div class="body-text"><br>Endless Learner.
+            Aspiring Software Engineer. Developer.<br><br>
           </div>
-          <div class="body-text">Find me on <a href="https://github.com/gperretta">GitHub</a> to know what I'm working
-            on!
-          </div>
+          <a class="noDecoration" href="https://github.com/gperretta">
+            <image src="./assets/icons/github-circ.svg" width="64px" height="64px" />
+          </a>
+          <a class="noDecoration" href="https://www.linkedin.com/in/gperretta/">
+            <image src="./assets/icons/linkedin-circ.svg" width="64px" height="64px" />
+          </a>
+          <a class="noDecoration" href="mailto:perretta.gilda@gmail.com">
+            <image src="./assets/icons/mail-circ.svg" width="64px" height="64px" />
+          </a>
         </div>
         <a class="button" id="my-work-link">
           <span class="button-text">Check out my projects</span>
-          <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
+          <image src="./assets/icons/arrow-down.svg" class="right-arrow-icon" />
         </a>
       </div>
     </div>
@@ -56,9 +64,12 @@
     <div id="about-section">
       <span class="subheader-text">About Me</span>
       <div class="about-section-content">
-        <div class="body-text">As a computer engineering graduate, I’m eager to apply the acquired technical skills and
-          theoretical knowledge into real-world projects and challenges.
-          <br>That’s one of the reasons why I’ve enrolled in the Apple Developer Academy learner program, where I’ve
+        <div class="body-text">As a computer engineering graduate, I’m eager to apply the acquired technical skills
+          and
+          theoretical knowledge into real-world projects and challenges, being driven by a strong passion and interest
+          about everything
+          that's tech-related and innovative.
+          <br><br>That’s one of the reasons why I’ve enrolled in the Apple Developer Academy learner program, where I’ve
           improved my skills
           by
           using a major learning-by-doing approach and enhanced my soft skills by working in multiple teams to
@@ -69,19 +80,15 @@
           experience in testing and quality assurance of different products on the market.
           I've been able to
           explore mobile, web and desktop products to detect bugs and failures in the work-flow/user-flow.
-          <br><br>As the Academy experience and my university studies have ended, I'm looking forward to expand my
-          knowledge
+          <br><br>I am now looking forward to broaden my perspective
           about
-          software development and engineering by using new tools and frameworks.
-          <br><br>
-          However, don't get me wrong, I like my free time, too.
-          <br>I enjoy walking around, most of all, I love going to places where I can see the sea. I'm also a
-          binge-watcher and I like every kind of tv shows and movies, from romantic comedies to sci-fi.
-          <br>
-          <b>A maybe uncommon passion of mine: </b>ancient Greek tragedies and comedies!
+          software development and engineering, while facing new challenges to keep growing both in a desired career
+          and
+          as a
+          human!
         </div>
         <a class="button" href="./cvpage.html">
-          <span class="button-text">Read more</span>
+          <span class="button-text">More about me</span>
           <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
         </a>
       </div>
@@ -100,10 +107,11 @@
           <img src="./assets/images/sprout.png" class="project-image">
           <div class="project-card-text-container">
             <div class="subheader-text project-title">Sprout</div>
-            <div class="body-text project-card-text">A pixel-art-styled arcade game, developed in Swift with SpriteKit.
+            <div class="body-text project-card-text">A pixel-art-styled arcade game, developed in Swift with
+              SpriteKit.
             </div>
           </div>
-          <a class="button" href="./project1.html">
+          <a class="button" href="./project-sprout.html">
             <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
@@ -118,7 +126,7 @@
             <div class="body-text project-card-text">A snake revival mini-game for macOS.
             </div>
           </div>
-          <a class="button" href="./project4.html">
+          <a class="button" href="./project-debug.html">
             <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
@@ -133,7 +141,7 @@
             <div class="body-text project-card-text">An alternative Flappy Bird clone for macOS.
             </div>
           </div>
-          <a class="button" href="./project5.html">
+          <a class="button" href="./project-ghosting-time.html">
             <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
@@ -141,6 +149,7 @@
         <!--
           PROJECT #2: UnicoCampania App Redesign
         -->
+        <!--
         <div class="project-card">
           <img src="./assets/images/unico.png" class="project-image">
           <div class="project-card-text-container">
@@ -148,14 +157,14 @@
             <div class="body-text project-card-text">A first approach to app redesign following the HIG.
             </div>
           </div>
-          <a class="button" href="./project2.html">
+          <a class="button" href="./project-unico.html">
             <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
         </div>
-        <!--
           PROJECT #3: DriveLink
         -->
+        <!--
         <div class="project-card">
           <img src="./assets/images/drivelink.png" class="project-image">
           <div class="project-card-text-container">
@@ -163,11 +172,12 @@
             <div class="body-text project-card-text">DriveLink: a human-centered test-driven project.
             </div>
           </div>
-          <a class="button" href="./project3.html">
+          <a class="button" href="./project-drivelink.html">
             <span class="button-text">Read More</span>
             <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
           </a>
         </div>
+      -->
         <!--
           PROJECT #6: Python projects
         -->
@@ -192,14 +202,6 @@
   </div>
   </div>
   </div>
-
-  <!-- FOOTER -->
-  <div id="footer">
-    <a class="icon-link" href="mailto:perretta.gilda@gmail.com">
-      <image src="./assets/icons/mail.svg" class="footer-icon" />
-    </a>
-  </div>
-
 </body>
 
 </html>
