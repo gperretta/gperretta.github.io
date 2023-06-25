@@ -22,6 +22,11 @@ body {
   font-weight: 700;
 }
 
+.project-title-large {
+  font-size: 36px;
+  font-weight: 700;
+}
+
 .subheader-text {
   font-size: 24px;
   font-weight: 700;
