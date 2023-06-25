@@ -175,8 +175,6 @@ body {
 .noDecoration,
 a:link {
   text-decoration: none;
-  margin-top: 16px;
-  margin-bottom: 16px;
   margin-left: 24px;
   margin-right: 24px;
 }
