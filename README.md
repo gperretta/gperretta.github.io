@@ -59,4 +59,6 @@ git push -u origin main
 
 <sub> - Coding icon: <a href="https://www.flaticon.com/free-icons/web-coding" title="web coding icons">created by manshagraphics - Flaticon</a> </sub>
 
+<sub> [Other graphical elements are entirely designed by me using Figma.] </sub>
+
 
